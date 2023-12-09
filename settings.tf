@@ -1,11 +1,11 @@
 terraform {
-  cloud {
-    organization = "Infrasity"
+  # cloud {
+  #   organization = "Infrasity"
 
-    workspaces {
-      name = "infrasity-workspace"
-    }
-  }
+  #   workspaces {
+  #     name = "infrasity-workspace"
+  #   }
+  # }
   required_providers {
     aws = {
       source  = "hashicorp/aws"
